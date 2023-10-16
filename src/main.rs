@@ -1,6 +1,6 @@
 use clap::Parser;
 
-/// Struct for reverb option and input.
+/// Print input to stdout.
 #[derive(Parser)]
 struct Arguments {
 
