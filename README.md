@@ -1,4 +1,4 @@
-# Reverb - Echo but in Rust.
+# Reverb - `echo` but in Rust.
 
 A simple implementation for printing text in terminal done with Rust.
 
