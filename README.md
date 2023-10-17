@@ -5,14 +5,20 @@ A simple implementation for printing text in terminal done with Rust.
 Made just to learn more Rust. Nothing fancy.
 
 ```shell
+Print input to stdout
+
 Usage: reverb [OPTIONS] [INPUT]...
 
 Arguments:
   [INPUT]...  Input to be printed
 
 Options:
-  -s, --separate...  Whether to print the input on one line or multiple
-  -h, --help         Print help
+  -c, --copy      Copy the stdout print to your clipboard. Cannot be used with separate.
+                  Copy will take priority over separate.
+  -s, --separate  Whether to print the input on one line or multiple.
+                  Does not take effect if used with copy option.
+  -h, --help      Print help
+
 ```
 
 ### Installation
