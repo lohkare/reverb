@@ -4,7 +4,7 @@ A simple implementation for printing text in terminal done with Rust.
 
 Made just to learn more Rust. Nothing fancy.
 
-```shell
+```
 Print input to stdout
 
 Usage: reverb [OPTIONS] [INPUT]...
